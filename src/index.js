@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './pages/App/App';
 import reportWebVitals from './reportWebVitals';
+// We can change the import name using the 'as' keyword
+import { BrowserRouter as Router } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 

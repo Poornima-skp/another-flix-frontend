@@ -1,0 +1,15 @@
+#movie-card {
+    width: 18rem;
+}
+
+#movie-poster {
+    height: 10rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+#Add-Movie{
+    max-width: 10rem;
+    align-self: center;
+    margin-bottom: 1rem;
+}
