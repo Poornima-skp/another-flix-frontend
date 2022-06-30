@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { getToken } from './users-service'
 
-const BASE_URL = 'http://localhost:8080/api/v1/movies'
+const BASE_URL = 'https://anotherflix.onrender.com/api/v1/movies'
 
 
 const setOptions = () => {

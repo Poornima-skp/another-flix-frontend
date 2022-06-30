@@ -1,7 +1,7 @@
 // All actions like logic for login, logout etc goes here
 import axios from 'axios'
 
-const BASE_URL="http://localhost:8080/api/v1/users"
+const BASE_URL ="https://anotherflix.onrender.com/api/v1/users"
 
 export const login = async credentials => {
     try {
